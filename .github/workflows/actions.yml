@@ -12,7 +12,7 @@ jobs:
     - name: Run Script
       run: echo Hello, David!
       
-    lint:
+  lint:
     name: Swiftlint
     runs-on: macos-latest
     steps:
