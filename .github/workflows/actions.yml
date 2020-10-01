@@ -31,6 +31,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Choose Xcode 12
-        run: sudo xcode-select --switch /Applications/Xcode_12.app
+      run: sudo xcode-select --switch /Applications/Xcode_12.app
     - name: Build App
-        run: xcodebuild -scheme "ScoreKeeper" -target ScoreKeeper -sdk iphonesimulator clean build
+      run: xcodebuild -scheme "ScoreKeeper" -target ScoreKeeper -sdk iphonesimulator clean build
